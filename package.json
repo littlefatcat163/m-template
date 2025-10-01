@@ -1,0 +1,30 @@
+{
+    "name": "m-template",
+    "displayName": "Markdown Front Matter Auto",
+    "description": "自动为新建 Markdown 文件添加 Front Matter 元数据",
+    "version": "0.0.1",
+    "type": "module",
+    "main": "./extension.js",
+    "icon": "./icon.png",
+    "publisher": "littlefatcat",
+    "activationEvents": [
+        "workspace.onDidCreateFiles"
+    ],
+    "contributes": {
+        "languages": [
+        {
+            "id": "markdown",
+            "aliases": ["Markdown"],
+            "extensions": [".md"],
+            "configuration": "./language-configuration.json"
+        }
+        ]
+    },
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:littlefatcat163/m-template.git"
+    }
+}
