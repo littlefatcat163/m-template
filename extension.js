@@ -17,8 +17,6 @@ export function activate(context) {
             `title: ${path.parse(uri.path).name}`,
             "description: ",
             `datetime: ${Date.now()}`,
-            "categories:",
-            "tags:",
             "---\n\n",
           ].join("\n");
 

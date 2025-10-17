@@ -2,7 +2,7 @@
     "name": "m-template",
     "displayName": "Markdown Front Matter Auto",
     "description": "自动为新建 Markdown 文件添加 Front Matter 元数据",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "type": "module",
     "main": "./extension.js",
     "icon": "./icon.png",
